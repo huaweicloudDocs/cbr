@@ -56,8 +56,8 @@
         -   [VMware备份操作流程](VMware备份操作流程.md)
         -   [下载eBackup镜像模板](下载eBackup镜像模板.md)
         -   [安装eBackup](安装eBackup.md)
-        -   [配置eBackup]
-            -   [配置备份服务器](配置备份服务器.md)
+        -   [配置eBackup](配置eBackup.md)
+            -   [配置备份服务器]
             -   [（可选）配置备份代理](（可选）配置备份代理.md)
             -   [（可选）配置HA功能](（可选）配置HA功能.md)
             -   [配置管理数据备份存储](配置管理数据备份存储.md)
