@@ -6,7 +6,6 @@
 
 -   支持的VMware版本包括VMware vSphere 5.1、VMware vSphere 5.5、VMware vSphere 6.0、VMware vSphere 6.5、VMware vSphere 6.7。
 -   一个eBackup备份管理系统中有且只有一个备份服务器，可以部署多个备份代理。请根据需要保护的虚拟机数量规划备份代理的数量。
--   使用模板创建的虚拟机有三张网卡，建议备份管理平面、生产管理平面、内部通信平面使用同一张网卡，生产存储平面使用一张网卡，备份存储平面使用一张网卡。为了确保网络安全，建议三个网卡IP地址配置在三个不同的网段，实现相互隔离。当规划多台虚拟机时，请将每台虚拟机的相同网络平面的网卡分别配置在同一个网段。
 -   本节以VMware vSphere Client 6.0为例进行介绍。当使用其他版本的VMware vSphere Client时，请参见VMware相关文档。
 -   由于镜像模板中不包含VMware的VDDK（Virtaual Disk Development Kit）需要用户访问VMware官方网站[https://code.vmware.com/web/sdk/6.0/vddk](https://code.vmware.com/web/sdk/6.0/vddk)下载VDDK。
 
@@ -37,7 +36,7 @@
     4.  在弹出的页面中，单击选择网络适配器，并在“网络标签”中根据实际环境选择网络标签。
 
         >![](public_sys-resources/icon-note.gif) **说明：**   
-        >使用模板创建的虚拟机有三张网卡，建议备份管理平面、生产管理平面、内部通信平面使用同一张网卡，生产存储平面使用一张网卡，备份存储平面使用一张网卡。为了确保网络安全，建议三个网卡IP地址配置在三个不同的网段，实现相互隔离。当规划多台虚拟机时，请将每台虚拟机的相同网络平面的网卡分别配置在同一个网段。  
+        >使用模板创建的虚拟默认机有三张网卡，请根据[规划网络](zh-cn_topic_0217968445.md)选择网络标签。  
 
     5.  修改好全部网络适配器的网络标签后，单击“确定”。
 
@@ -48,7 +47,10 @@
 
     “root“帐号初始密码为“Cloud12\#$“。
 
-17. 为虚拟机配置静态IP。
+17. 为虚拟机的各网卡配置静态IP地址。
+
+    IP地址的规划请参考[规划网络](zh-cn_topic_0217968445.md)。
+
     1.  执行**cd /etc/sysconfig/network-scripts/**命令进入“network-scripts”目录。
     2.  执行**ip a**命令查看虚拟机当前网卡名称。eth0为例进行说明，实际操作中请替换为实际名称。
     3.  <a name="zh-cn_topic_0174625071_li68117292492"></a>执行**vi ifcfg-eth0**命令，打开“ifcfg-eth0”配置文件。
