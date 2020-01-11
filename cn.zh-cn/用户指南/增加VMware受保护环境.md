@@ -2,11 +2,6 @@
 
 eBackup备份管理系统支持对VMware环境下虚拟机的保护。您需要在系统中增加VMware受保护环境，从而对受保护环境中的虚拟机进行备份和恢复。
 
-## 前提条件<a name="zh-cn_topic_0174982619_zh-cn_topic_0170955450_section25186503"></a>
-
--   服务器和VMware的管理平面网络连接正常。
--   服务器的“可访问状态”为“可访问”，“注册状态”为“已注册”。查看服务器相关信息的操作请参见[管理eBackup服务器](管理eBackup服务器.md#cbr_03_0093)。
-
 ## 背景信息<a name="zh-cn_topic_0174982619_zh-cn_topic_0170955450_section25351940"></a>
 
 -   增加VMware受保护环境时，如果虚拟机名称中包含%/\\-."等特殊字符，在eBackup备份管理系统中，该虚拟机显示的名称与原名称不一致，如%将显示为%25。详细内容请参见《vSphere Web Services SDK Programming Guide》。为方便起见，建议用户在对VMware虚拟机命名时避免使用上述特殊字符。
@@ -19,6 +14,11 @@ eBackup备份管理系统支持对VMware环境下虚拟机的保护。您需要�
         ![](figures/确认系统盘槽位.png "确认系统盘槽位")
 
 
+
+## 前提条件<a name="zh-cn_topic_0174982619_zh-cn_topic_0170955450_section25186503"></a>
+
+-   服务器和VMware的管理平面网络连接正常。
+-   服务器的“可访问状态”为“可访问”，“注册状态”为“已注册”。查看服务器相关信息的操作请参见[管理eBackup服务器](管理eBackup服务器.md#cbr_03_0093)。
 
 ## 操作步骤<a name="zh-cn_topic_0174982619_zh-cn_topic_0170955450_section26840873"></a>
 
