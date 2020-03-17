@@ -20,11 +20,11 @@
 **图 1**  给用户授予CBR权限流程<a name="fig194521431175317"></a>  
 ![](figures/给用户授予CBR权限流程.png "给用户授予CBR权限流程")
 
-1.  <a name="li3656183032711"></a>[创建用户组并授权](https://support.huaweicloud.com/usermanual-iam/zh-cn_topic_0046611269.html)
+1.  <a name="li3656183032711"></a>[创建用户组并授权](https://support.huaweicloud.com/usermanual-iam/iam_03_0001.html)
 
     在IAM控制台创建用户组，并授予云备份只读权限“CBR ReadOnlyAccess”。
 
-2.  [创建用户并加入用户组](https://support.huaweicloud.com/usermanual-iam/zh-cn_topic_0046611303.html)
+2.  [创建用户并加入用户组](https://support.huaweicloud.com/usermanual-iam/iam_02_0001.html)
 
     在IAM控制台创建用户，并将其加入[1](#li3656183032711)中创建的用户组。
 
