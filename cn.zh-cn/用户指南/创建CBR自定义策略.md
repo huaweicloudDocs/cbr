@@ -31,27 +31,24 @@
     }
     ```
 
--   示例2：拒绝用户删除存储库
+-   示例2：拒绝用户删除存储库和备份
 
     拒绝策略需要同时配合其他策略使用，否则没有实际作用。用户被授予的策略中，一个授权项的作用如果同时存在Allow和Deny，则遵循Deny优先原则。
 
-    如果您给用户授予CBR FullAccess的系统策略，但不希望用户拥有CBR FullAccess中定义的删除存储库权限，您可以创建一条拒绝删除存储库的自定义策略，然后同时将CBR FullAccess和拒绝策略授予用户，根据Deny优先原则，则用户可以对CBR执行除了删除存储库外的所有操作。拒绝策略示例如下：
+    如果您给用户授予CBR FullAccess的系统策略，但不希望用户拥有CBR FullAccess中定义的删除存储库权限，您可以创建一条拒绝删除存储库和备份的自定义策略，然后同时将CBR FullAccess和拒绝策略授予用户，根据Deny优先原则，则用户可以对CBR执行除了删除存储库和备份外的所有操作。拒绝策略示例如下：
 
     ```
     {
-          "Version": "1.1",
-          "Statement": [
-                {
-                      "Effect": "Allow",
-                      "Action": [
-                            "cbr:*:get*",
-                            "cbr:*:list*",
-                            "cbr:vaults:update",
-                            "cbr:vaults:delete",
-                            "cbr:vaults:create"
-                      ]
-                }
-          ]
+        "Version": "1.1",
+        "Statement": [
+            {
+                "Effect": "Deny",
+                "Action": [
+                    "cbr:backups:delete",
+                    "cbr:vaults:delete"
+                ]
+            }
+        ]
     }
     ```
 
