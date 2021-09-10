@@ -87,13 +87,13 @@ eBackup备份管理系统支持HA功能，需要规划至少两个eBackup服务�
     </tbody>
     </table>
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >由于备份服务器同时兼备备份代理的功能，为方便用户查看和管理备份服务器的该项功能，在界面上将该项功能独立成一条信息进行展示。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >由于备份服务器同时兼备备份代理的功能，为方便用户查看和管理备份服务器的该项功能，在界面上将该项功能独立成一条信息进行展示。
 
 4.  根据服务器的注册状态，可以对备份代理执行注册或注销操作。
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >不能对配置了HA或与备份服务器关联的备份代理执行注册和注销操作。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >不能对配置了HA或与备份服务器关联的备份代理执行注册和注销操作。
 
     -   注册所选备份代理
 
@@ -110,16 +110,16 @@ eBackup备份管理系统支持HA功能，需要规划至少两个eBackup服务�
 
         选择“注册状态”为“已注册”的备份代理，通过以下方式，执行注销操作。在右侧信息预览区单击![](figures/icon-wrong.png)，并在弹出的“确认”对话框中单击“确定”。
 
-    >![](public_sys-resources/icon-notice.gif) **须知：**   
-    >对“可访问状态”为“不可访问”，“注册状态”为“已注册”的备份代理进行注销前，还需要确保服务器满足以下条件之一：  
-    >-   关闭状态。  
-    >-   开机状态且服务器上的所有存储单元已经被解挂载。可以通过执行**mount |grep /opt/huawei-data-protection/ebackup/bricks**命令查看，如果存在挂载的存储单元，请执行**umount /opt/huawei-data-protection/ebackup/bricks**命令解挂载存储单元。  
-    >对“可访问状态”为“可访问”，“注册状态”为“已注册”的备份代理进行注销后，检查是否服务器上的所有存储单元已经被解挂载。可以通过执行**mount |grep /opt/huawei-data-protection/ebackup/bricks**命令查看，如果存在挂载的存储单元，请执行**umount /opt/huawei-data-protection/ebackup/bricks**命令解挂载存储单元。  
-    >对备份代理执行注销操作（包括相关解挂载存储单元操作）后，请停止eBackup服务并卸载eBackup备份软件，以确保该备份代理后续不再与备份服务器自动建立连接。如果后续需要再次使用该备份代理，请重新安装软件并配置备份代理。  
+    >![](public_sys-resources/icon-notice.gif) **须知：** 
+    >对“可访问状态”为“不可访问”，“注册状态”为“已注册”的备份代理进行注销前，还需要确保服务器满足以下条件之一：
+    >-   关闭状态。
+    >-   开机状态且服务器上的所有存储单元已经被解挂载。可以通过执行**mount |grep /opt/huawei-data-protection/ebackup/bricks**命令查看，如果存在挂载的存储单元，请执行**umount /opt/huawei-data-protection/ebackup/bricks**命令解挂载存储单元。
+    >对“可访问状态”为“可访问”，“注册状态”为“已注册”的备份代理进行注销后，检查是否服务器上的所有存储单元已经被解挂载。可以通过执行**mount |grep /opt/huawei-data-protection/ebackup/bricks**命令查看，如果存在挂载的存储单元，请执行**umount /opt/huawei-data-protection/ebackup/bricks**命令解挂载存储单元。
+    >对备份代理执行注销操作（包括相关解挂载存储单元操作）后，请停止eBackup服务并卸载eBackup备份软件，以确保该备份代理后续不再与备份服务器自动建立连接。如果后续需要再次使用该备份代理，请重新安装软件并配置备份代理。
 
 5.  **可选： **当需要将eBackup配置为高可用系统时，设置HA参数。
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >系统中至少存在两个eBackup服务器，即至少存在一个独立的备份代理服务器，才能够将其设置为高可用系统。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >系统中至少存在两个eBackup服务器，即至少存在一个独立的备份代理服务器，才能够将其设置为高可用系统。
 
 

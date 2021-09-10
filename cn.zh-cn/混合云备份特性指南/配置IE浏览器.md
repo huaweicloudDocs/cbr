@@ -11,8 +11,8 @@
 1.  如果页面提示“此网站的安全证书有问题”，单击“继续浏览此网站\(不推荐\)”。
 2.  关闭浏览器对SSL 3.0的支持。
 
-    >![](public_sys-resources/icon-notice.gif) **须知：**   
-    >SSL 3.0存在安全问题，可能导致设备信息泄露。请在登录eBackup前，关闭浏览器对SSL 3.0的支持。  
+    >![](public_sys-resources/icon-notice.gif) **须知：** 
+    >SSL 3.0存在安全问题，可能导致设备信息泄露。请在登录eBackup前，关闭浏览器对SSL 3.0的支持。
 
     1.  在浏览器菜单栏中选择“工具 \> Internet选项”（如果看不到菜单栏，可按“Alt”显示）。
     2.  在“Internet 选项”对话框中，单击“高级”页签。

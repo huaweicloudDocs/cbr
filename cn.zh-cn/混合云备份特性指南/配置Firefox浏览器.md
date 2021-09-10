@@ -12,8 +12,8 @@
 2.  在弹出的对话框中单击“确认安全例外”。
 3.  关闭浏览器对SSL 3.0的支持。
 
-    >![](public_sys-resources/icon-notice.gif) **须知：**   
-    >SSL 3.0存在安全问题，可能导致设备信息泄露。请在登录eBackup前，关闭浏览器对SSL 3.0的支持。  
+    >![](public_sys-resources/icon-notice.gif) **须知：** 
+    >SSL 3.0存在安全问题，可能导致设备信息泄露。请在登录eBackup前，关闭浏览器对SSL 3.0的支持。
 
     1.  在浏览器地址栏中输入**about:config**。
     2.  将“security.tls.version.min”值设置为“1”。

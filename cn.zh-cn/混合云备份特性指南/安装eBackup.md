@@ -4,7 +4,7 @@
 
 ## 背景信息<a name="zh-cn_topic_0174625071_section141721547194214"></a>
 
--   支持的VMware版本包括VMware vSphere 5.1、VMware vSphere 5.5、VMware vSphere 6.0、VMware vSphere 6.5、VMware vSphere 6.7。
+-   支持的VMware版本包括VMware vSphere 5.1、VMware vSphere 5.5、VMware vSphere 6.0、VMware vSphere 6.5、VMware vSphere 6.7、VMware vSphere 7.0。
 -   一个eBackup备份管理系统中有且只有一个备份服务器，可以部署多个备份代理。请根据需要保护的虚拟机数量规划备份代理的数量。
 -   本节以VMware vSphere Client 6.0为例进行介绍。当使用其他版本的VMware vSphere Client时，请参见VMware相关文档。
 -   由于镜像模板中不包含VMware的VDDK（Virtaual Disk Development Kit）需要用户访问VMware官方网站[https://code.vmware.com/web/sdk/6.0/vddk](https://code.vmware.com/web/sdk/6.0/vddk)下载VDDK。
@@ -35,8 +35,8 @@
     3.  单击“编辑虚拟机设置”。
     4.  在弹出的页面中，单击选择网络适配器，并在“网络标签”中根据实际环境选择网络标签。
 
-        >![](public_sys-resources/icon-note.gif) **说明：**   
-        >使用模板创建的虚拟机默认有三张网卡，请根据[规划网络](规划网络.md#cbr_03_0105)选择网络标签。  
+        >![](public_sys-resources/icon-note.gif) **说明：** 
+        >使用模板创建的虚拟机默认有三张网卡，请根据[规划网络](规划网络.md#cbr_03_0105)选择网络标签。
 
     5.  修改好全部网络适配器的网络标签后，单击“确定”。
 
@@ -93,8 +93,8 @@
         any net 192.168.1.0 netmask 255.255.255.0 gw 192.168.31.1 dev eth2
         ```
 
-        >![](public_sys-resources/icon-note.gif) **说明：**   
-        >上述回显信息四列分别表示目标网络，目标网络子网掩码，本端的网关和网卡名称。  
+        >![](public_sys-resources/icon-note.gif) **说明：** 
+        >上述回显信息四列分别表示目标网络，目标网络子网掩码，本端的网关和网卡名称。
 
     4.  执行**service network restart**命令，重启网络使路由生效。
     5.  执行**route**命令，查看路由信息。

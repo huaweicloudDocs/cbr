@@ -11,22 +11,22 @@
 
 本节介绍如何修改安装在Windows操作系统和Linux操作系统的客户端的SNMPv3告警上报帐号密码。
 
->![](public_sys-resources/icon-notice.gif) **须知：**   
->客户端SNMP v3的授权认证密码和数据加密密码设置为相同密码时，存在安全风险，为了确保系统安全，建议将客户端SNMP v3的授权认证密码和数据加密密码设置为不同的密码。  
+>![](public_sys-resources/icon-notice.gif) **须知：** 
+>客户端SNMP v3的授权认证密码和数据加密密码设置为相同密码时，存在安全风险，为了确保系统安全，建议将客户端SNMP v3的授权认证密码和数据加密密码设置为不同的密码。
 
 初始的授权认证密码请联系技术人员获取。
 
->![](public_sys-resources/icon-note.gif) **说明：**   
->密码必须符合密码复杂度要求，复杂度要求如下：  
->-   密码长度为8到16个字符  
->-   密码必须含特殊字符\`\~!@\#$%^ &\*\(\)-\_=+\\|\[\{\}\];:'",<.\>/?  
->-   密码必须含有如下至少两种字符组合：  
->    -   大写字母  
->    -   小写字母  
->    -   数字  
->-   密码不与帐号或者帐号的倒写一样  
->-   密码不与旧密码一样  
->-   密码中不能包含空格  
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>密码必须符合密码复杂度要求，复杂度要求如下：
+>-   密码长度为8到16个字符
+>-   密码必须含特殊字符\`\~!@\#$%^ &\*\(\)-\_=+\\|\[\{\}\];:'",<.\>/?
+>-   密码必须含有如下至少两种字符组合：
+>    -   大写字母
+>    -   小写字母
+>    -   数字
+>-   密码不与帐号或者帐号的倒写一样
+>-   密码不与旧密码一样
+>-   密码中不能包含空格
 
 ## Windows系统操作步骤<a name="section559135917224"></a>
 
@@ -49,8 +49,8 @@
     Please choose:
     ```
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >“admin”为安装客户端时设置的用户名。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >“admin”为安装客户端时设置的用户名。
 
 4.  选择需要修改的授权认证密码或数据加密密码对应序号，按“Enter”。
 5.  输入旧密码，按“Enter”。
@@ -62,14 +62,14 @@
 1.  使用服务器密码登录Linux系统服务器。
 2.  执行**TMOUT=0**命令，防止“PuTTY”超时退出。
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >执行该命令后，当前系统在无操作时会保持运行状态，存在安全风险，为了确保系统安全，请在完成相应操作后，执行**exit**退出当前系统。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >执行该命令后，当前系统在无操作时会保持运行状态，存在安全风险，为了确保系统安全，请在完成相应操作后，执行**exit**退出当前系统。
 
 3.  执行**su - rdadmin**命令，切换为“rdadmin”用户。
 4.  执行**/home/rdadmin/Agent/bin/agentcli chgsnmp**命令，输入客户端登录帐号的密码，按“Enter”。
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >客户端安装路径固定为“/home/rdadmin/Agent”。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >客户端安装路径固定为“/home/rdadmin/Agent”。
 
     ```
     Please choose operation: 

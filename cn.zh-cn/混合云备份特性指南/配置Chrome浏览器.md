@@ -11,8 +11,8 @@
 1.  如果页面提示“您的连接不是私密连接”时，依次单击“高级”和“继续前往xxx.xxx.xxx.xxx（不安全）”。
 2.  关闭浏览器对SSL 3.0的支持。
 
-    >![](public_sys-resources/icon-notice.gif) **须知：**   
-    >SSL 3.0存在安全问题，可能导致设备信息泄露。请在登录eBackup前，关闭浏览器对SSL 3.0的支持。  
+    >![](public_sys-resources/icon-notice.gif) **须知：** 
+    >SSL 3.0存在安全问题，可能导致设备信息泄露。请在登录eBackup前，关闭浏览器对SSL 3.0的支持。
 
     1.  完全关闭Chrome浏览器。
     2.  复制并粘贴一个Chrome浏览器的快捷方式。

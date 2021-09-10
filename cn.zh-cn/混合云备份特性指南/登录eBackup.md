@@ -6,14 +6,14 @@
 
 1.  在维护终端运行浏览器。
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >-   支持如下浏览器版本：  
-    >-   Internet Explorer 9～11  
-    >-   Mozilla FireFox 27～43  
-    >-   Google Chrome 28～60  
-    >-   推荐显示分辨率为1280\*768。  
-    >-   本节以Internet Explorer 9为例进行介绍。  
-    >-   强烈建议用户在信任网络中使用eBackup备份管理系统对磁盘进行备份、恢复等相关管理操作，避免遭遇安全威胁或者造成损失。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >-   支持如下浏览器版本：
+    >-   Internet Explorer 9～11
+    >-   Mozilla FireFox 27～43
+    >-   Google Chrome 28～60
+    >-   推荐显示分辨率为1280\*768。
+    >-   本节以Internet Explorer 9为例进行介绍。
+    >-   强烈建议用户在信任网络中使用eBackup备份管理系统对磁盘进行备份、恢复等相关管理操作，避免遭遇安全威胁或者造成损失。
 
 2.  在浏览器的地址栏中输入“https://_xxx.xxx.xxx.xxx_:port”。
 

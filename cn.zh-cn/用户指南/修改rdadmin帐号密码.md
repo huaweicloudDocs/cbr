@@ -3,8 +3,8 @@
 ## 操作说明<a name="section444217454375"></a>
 
 -   需要定期修改客户端的操作系统“rdadmin”用户的登录密码，并禁止“rdadmin”用户远程登录，以提升系统运维安全性。
--   Linux操作系统下“rdadmin”用户无帐号密码，Windows操作系统下“rdadmin”用户默认帐号密码请联系技术人员获取。
--   该任务指导用户修改Windows系统下客户端的rdadmin帐号密码。
+-   Linux操作系统下“rdadmin”用户无帐号密码，Windows操作系统下“rdadmin”用户默认帐号密码“Huawei@123”。
+-   该任务指导用户修改Windows 2012系统下客户端的rdadmin帐号密码。其他版本请根据实际情况进行修改。
 
 ## 前提条件<a name="section1327165714461"></a>
 
