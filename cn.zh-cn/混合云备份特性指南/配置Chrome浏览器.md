@@ -2,11 +2,11 @@
 
 在不同的浏览器中使用https访问eBackup时，浏览器将提示网站的证书安全问题，请根据以下提示进行配置。同时由于SSL 3.0存在安全问题，可能导致设备信息泄露。因此在登录eBackup前，需要关闭浏览器对SSL 3.0的支持。
 
-## 背景信息<a name="zh-cn_topic_0174994053_zh-cn_topic_0170955568_section27159916"></a>
+## 背景信息<a name="zh-cn_topic_0000001258483849_zh-cn_topic_0170955568_section27159916"></a>
 
 本节以Google Chrome 37版本为例进行说明。
 
-## 操作步骤<a name="zh-cn_topic_0174994053_zh-cn_topic_0170955568_section43112656"></a>
+## 操作步骤<a name="zh-cn_topic_0000001258483849_zh-cn_topic_0170955568_section43112656"></a>
 
 1.  如果页面提示“您的连接不是私密连接”时，依次单击“高级”和“继续前往xxx.xxx.xxx.xxx（不安全）”。
 2.  关闭浏览器对SSL 3.0的支持。

@@ -33,7 +33,7 @@
 ## 使用VMware备份恢复数据<a name="section17372011145014"></a>
 
 1.  登录云备份管理控制台。
-    1.  登录管理控制台。
+    1.  [登录管理控制台](https://console.huaweicloud.com/console/?locale=zh-cn#/cbr/manager/csbs/vaultList)。
     2.  单击管理控制台左上角的![](figures/icon-region.png)，选择区域和项目。
     3.  选择“存储 \> 云备份”。选择对应备份的页签。
 

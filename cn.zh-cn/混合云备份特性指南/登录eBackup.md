@@ -2,7 +2,7 @@
 
 本节介绍如何登录eBackup GUI界面。
 
-## 操作步骤<a name="zh-cn_topic_0174994049_zh-cn_topic_0170955540_section2112059"></a>
+## 操作步骤<a name="zh-cn_topic_0000001258243873_zh-cn_topic_0170955540_section2112059"></a>
 
 1.  在维护终端运行浏览器。
 

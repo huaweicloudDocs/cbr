@@ -2,11 +2,11 @@
 
 在不同的浏览器中使用https访问eBackup时，浏览器将提示网站的证书安全问题，请根据以下提示进行配置。同时由于SSL 3.0存在安全问题，可能导致设备信息泄露。因此在登录eBackup前，需要关闭浏览器对SSL 3.0的支持。
 
-## 背景信息<a name="zh-cn_topic_0174994051_zh-cn_topic_0170955556_section29770350"></a>
+## 背景信息<a name="zh-cn_topic_0000001258483851_zh-cn_topic_0170955556_section29770350"></a>
 
 本节以Internet Explorer 9.0版本为例进行说明。
 
-## 操作步骤<a name="zh-cn_topic_0174994051_zh-cn_topic_0170955556_section66606563"></a>
+## 操作步骤<a name="zh-cn_topic_0000001258483851_zh-cn_topic_0170955556_section66606563"></a>
 
 1.  如果页面提示“此网站的安全证书有问题”，单击“继续浏览此网站\(不推荐\)”。
 2.  关闭浏览器对SSL 3.0的支持。
